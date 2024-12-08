@@ -34,4 +34,5 @@ if __name__ == "__main__":
         sys.exit(1)
     
     input_mp4 = sys.argv[1]  # Get the input filename from command-line argument
+    print (f"Converting {input_mp4} to MP3...")
     convert_mp4_to_mp3(input_mp4)
